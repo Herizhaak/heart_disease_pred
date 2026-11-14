@@ -1,0 +1,5 @@
+model,roc_auc_mean,roc_auc_std,accuracy_mean,accuracy_std,recall_mean,recall_std,f1_mean,f1_std
+baseline (majority class),0.5,0.0,0.556,0.005,0.0,0.0,0.0,0.0
+logistic regression,0.909,0.05,0.842,0.057,0.797,0.095,0.817,0.068
+random forest,0.91,0.047,0.837,0.056,0.787,0.098,0.809,0.068
+xgboost,0.902,0.052,0.828,0.068,0.785,0.1,0.801,0.078

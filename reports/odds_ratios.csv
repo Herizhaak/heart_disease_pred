@@ -1,0 +1,23 @@
+,odds_ratio
+Chest pain type_1,0.522
+Thallium_3,0.541
+Slope of ST_1,0.624
+FBS over 120,0.646
+Max HR,0.697
+Chest pain type_3,0.723
+Slope of ST_3,0.836
+Chest pain type_2,0.843
+EKG results_0,0.862
+Thallium_6,0.916
+Age,0.949
+EKG results_2,1.034
+EKG results_1,1.127
+Cholesterol,1.326
+ST depression,1.37
+BP,1.396
+Exercise angina,1.872
+Slope of ST_2,1.924
+Thallium_7,2.023
+Number of vessels fluro,3.106
+Chest pain type_4,3.149
+Sex,4.455
