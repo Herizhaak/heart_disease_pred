@@ -1,23 +1,12 @@
-,odds_ratio
-Chest pain type_1,0.522
-Thallium_3,0.541
-Slope of ST_1,0.624
-FBS over 120,0.646
-Max HR,0.697
-Chest pain type_3,0.723
-Slope of ST_3,0.836
-Chest pain type_2,0.843
-EKG results_0,0.862
-Thallium_6,0.916
-Age,0.949
-EKG results_2,1.034
-EKG results_1,1.127
-Cholesterol,1.326
-ST depression,1.37
-BP,1.396
-Exercise angina,1.872
-Slope of ST_2,1.924
-Thallium_7,2.023
-Number of vessels fluro,3.106
-Chest pain type_4,3.149
-Sex,4.455
+feature,odds_ratio,ci_low,ci_high
+ejection_fraction,0.483,0.296,0.662
+sex,0.7,0.388,1.328
+serum_sodium,0.831,0.586,1.129
+platelets,0.9,0.666,1.203
+diabetes,1.099,0.599,1.866
+smoking,1.15,0.629,2.189
+creatinine_phosphokinase,1.287,0.967,1.848
+anaemia,1.524,0.904,2.746
+high_blood_pressure,1.601,0.967,2.992
+age,1.769,1.352,2.658
+serum_creatinine,2.038,1.519,3.016

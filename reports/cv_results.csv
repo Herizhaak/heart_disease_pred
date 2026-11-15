@@ -1,5 +1,6 @@
-model,roc_auc_mean,roc_auc_std,accuracy_mean,accuracy_std,recall_mean,recall_std,f1_mean,f1_std
-baseline (majority class),0.5,0.0,0.556,0.005,0.0,0.0,0.0,0.0
-logistic regression,0.909,0.05,0.842,0.057,0.797,0.095,0.817,0.068
-random forest,0.91,0.047,0.837,0.056,0.787,0.098,0.809,0.068
-xgboost,0.902,0.052,0.828,0.068,0.785,0.1,0.801,0.078
+model,roc_auc_mean,roc_auc_sd,pr_auc_mean,pr_auc_sd,brier_mean,brier_sd,recall_mean,recall_sd,precision_mean,precision_sd,specificity_mean,specificity_sd
+baseline (majority class),0.5,0.0,0.321,0.007,0.218,0.002,1.0,0.0,0.321,0.007,0.0,0.0
+"baseline (EF + creatinine, logistic)",0.762,0.066,0.636,0.11,0.177,0.022,0.725,0.084,0.55,0.061,0.715,0.064
+logistic regression,0.764,0.061,0.632,0.093,0.177,0.025,0.722,0.118,0.527,0.061,0.692,0.059
+random forest,0.792,0.062,0.672,0.092,0.168,0.019,0.78,0.092,0.558,0.056,0.703,0.07
+gradient boosting,0.762,0.06,0.633,0.094,0.18,0.027,0.69,0.111,0.556,0.068,0.734,0.074
